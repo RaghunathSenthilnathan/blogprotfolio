@@ -1,10 +1,9 @@
-import { useRef } from "react";
-import { motion } from "framer-motion";
-import Wrapper from "./Wrapper";
 import { scrollTo } from "@lib/helper";
-import { useFollowPointer } from "./useFollowPointer";
+import { useRef } from "react";
 import { ImSearch } from "react-icons/im";
 import SimpleImageSlider from "react-simple-image-slider";
+import Wrapper from "./Wrapper";
+import { useFollowPointer } from "./useFollowPointer";
 
 const HeroBanner = () => {
   const ref = useRef(null);
@@ -78,7 +77,6 @@ const HeroBanner = () => {
 
               <div className="flex relative wrapper">
                 <ImSearch
-                  
                   style={{ margin: "12px", fontSize: "2rem", height: "25" }}
                 />
 
@@ -94,7 +92,7 @@ const HeroBanner = () => {
             </div>
             <div className="hidden md:flex justify-center mt-[40px] 2xl:mt-[63px] relative">
               <SimpleImageSlider
-                style={{marginLeft:'65px'}}
+                style={{ marginLeft: "65px" }}
                 width={1125}
                 height={650}
                 images={sliderImages}

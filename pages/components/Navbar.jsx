@@ -1,6 +1,5 @@
-import React from "react";
-import { ImHome, ImBubbles, ImMail4, ImExit } from "react-icons/im";
-import SideNav, { NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav";
+import SideNav, { NavIcon, NavItem, NavText } from "@trendmicro/react-sidenav";
+import { ImBubbles, ImExit, ImHome, ImMail4 } from "react-icons/im";
 
 const Navbar = () => {
   return (
