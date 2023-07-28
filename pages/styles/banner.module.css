@@ -1,0 +1,22 @@
+.wrapper {
+    position:relative;
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent white;
+    padding: 4px;
+    position: absolute;
+    box-sizing:border-box;
+    top:50%;
+    left:2px;
+    transform: translateY(-50%);
+  }
+  
+  .input {
+    height: 2.5rem;
+    box-sizing:border-box;
+    padding-left: 1.5rem;
+    
+  }
